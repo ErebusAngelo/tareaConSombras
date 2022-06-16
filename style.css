@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(209, 214, 125);
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  
+  .sol {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 0, 10);
+    border: 1px solid rgb(255, 255, 0);
+    box-shadow: rgba(182, 184, 15, 0.25) 0px 54px 55px,
+      rgba(226, 215, 10, 0.464) 0px -12px 30px,
+      rgba(225, 233, 6, 0.52) 0px 4px 6px, rgba(228, 228, 7, 0.57) 0px 12px 13px,
+      rgba(212, 181, 24, 0.09) 0px -3px 5px;
+    position: relative;
+  }
+  
+  .sol {
+    animation: sun 8s infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+  }
+  
+  @keyframes sun {
+    0% {
+      left: 0;
+    }
+  
+    10% {
+      left: 10%;
+    }
+  
+    20% {
+      left: 20%;
+    }
+  
+    30% {
+      left: 30%;
+    }
+  
+    40% {
+      left: 40%;
+    }
+  
+    50% {
+      left: 50%;
+    }
+  
+    60% {
+      left: 60%;
+    }
+  
+    70% {
+      left: 70%;
+    }
+  
+    80% {
+      left: 80%;
+    }
+  
+    90% {
+      left: 90%;
+    }
+  
+    100% {
+      left: 100%;
+    }
+  }
+  
+  .box {
+    align-self: center;
+  background-color: rgb(72, 72, 188);
+    width: 150px;
+    height: 150px;
+  
+    border-radius: 50%;
+  
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  .box {
+    animation: shadow 8s infinite ;
+  }
+  @keyframes shadow {
+    0% {
+        box-shadow: -100px 8px 15px -3px rgba(0,0,0,0.5);
+    }
+    10% {
+        box-shadow: -85px 37px 15px -3px rgba(0,0,0,0.5);
+    }
+    20% {
+        box-shadow: -52px 63px 15px -3px rgba(0,0,0,0.5);
+    }
+    30% {
+        box-shadow: -28px 64px 15px -3px rgba(0,0,0,0.5);
+    }
+    40% {
+        box-shadow: -17px 65px 15px -3px rgba(0,0,0,0.5);
+    }
+    50% {
+        box-shadow: -5px 60px 15px -3px rgba(0,0,0,0.5);
+    }
+    60% {
+        box-shadow: 36px 65 px 15px -3px rgba(0,0,0,0.5);
+    }
+    70% {
+        box-shadow: 54px 69px 15px -3px rgba(0,0,0,0.5);
+    }
+    80% {
+        box-shadow: 78px 60px 15px -3px rgba(0,0,0,0.5);
+    }
+    90% {
+        box-shadow: 82px 53px 15px -3px rgba(0,0,0,0.5);
+    }
+    100% {
+        box-shadow: 90px 9px 15px -3px rgba(0,0,0,0.5);
+    }
+  }
